@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_UPTIME_UNIQUE_ROW_ID/PNW_UPTIME">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/PNW_UPTIME"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Availability/PNW_UPTIME"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_UPTIME_UNIQUE_ROW_ID/PNW_UPTIME">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Availability/PNW_UPTIME">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Average_Availability/PNW_UPTIME"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Latency_ms/PNW_UPTIME"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_UPTIME_UNIQUE_ROW_ID/PNW_UPTIME">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Latency_ms/PNW_UPTIME">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Average_Latency_ms/PNW_UPTIME"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/PNW_UPTIME"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_UPTIME_UNIQUE_ROW_ID/PNW_UPTIME">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/PNW_UPTIME">
+			<rdfs:Class rdf:resource="TYPE:DATE"/>
+			<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:MM((REPLACEMENT_TOKEN))dd((REPLACEMENT_TOKEN))yyyy"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Date/PNW_UPTIME"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/EUDs_Connected/PNW_UPTIME"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_UPTIME_UNIQUE_ROW_ID/PNW_UPTIME">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/EUDs_Connected/PNW_UPTIME">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/EUDs_Connected/PNW_UPTIME"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/MTF/PNW_UPTIME"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_UPTIME_UNIQUE_ROW_ID/PNW_UPTIME">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/MTF/PNW_UPTIME">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/MTF/PNW_UPTIME"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Total_EUD_Connection_Failures/PNW_UPTIME"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_UPTIME_UNIQUE_ROW_ID/PNW_UPTIME">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Total_EUD_Connection_Failures/PNW_UPTIME">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Total_EUD_Connection_Failures/PNW_UPTIME"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Total_EUD_Connection_Successes/PNW_UPTIME"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PNW_UPTIME_UNIQUE_ROW_ID/PNW_UPTIME">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Total_EUD_Connection_Successes/PNW_UPTIME">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Total_EUD_Connection_Successes/PNW_UPTIME"/>
+		</rdf:Description>
+	</DatatypeProperty>
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">12</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Availability/PNW_UPTIME">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">12</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Average_Latency_ms/PNW_UPTIME">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">12</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/PNW_UPTIME">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/EUDs_Connected/PNW_UPTIME">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">12</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/MTF/PNW_UPTIME">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Total_EUD_Connection_Failures/PNW_UPTIME">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">12</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Total_EUD_Connection_Successes/PNW_UPTIME">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">12</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:02:09 10:42:48</TIME>
+</rdf:Description>
+
+</rdf:RDF>
